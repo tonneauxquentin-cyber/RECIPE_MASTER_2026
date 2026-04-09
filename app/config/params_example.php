@@ -1,5 +1,6 @@
 <?php
-//1. Initialiser les zones dynamiques : $content
+//1. Initialiser les zones dynamiques : $title $content
+$title = "";
 $content = "Aucun contenu ne correspond a votre requête";
 //2. définir les contes de connexion (DB_HOST, DB_NAME, DB_USER, DB_PASSWORD)
 define("DB_HOST", "your_host");
