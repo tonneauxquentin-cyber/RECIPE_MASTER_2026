@@ -7,4 +7,6 @@ Un projet basé sur une architecture MVC procédurale
 - Lancer Mamp/Wamp ou Xamp ...
 - Chargez la db_remplie sur votre serveur mySQL
 - Placez le dossier complet dans le dossier racine de votre serveur Web (htdocs, www, ...)
-- Testez via localhost/path_du_dossier
+- Renommez ./app/config/params_example.php en ./app/config/params.php
+- Modifier les données dans ./app/config/params.php
+- Testez via localhost/path_du_dossier.
